@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(196, 177, 135);
-    background-image: url(/img/img3.jpg) ;
+    background-image: url(img3.jpg) ;
     /* background: black; */
     background-position: center;
     background-repeat: no-repeat;
