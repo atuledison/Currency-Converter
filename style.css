@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 177, 135);
+    background-image: url(/img/img3.jpg) ;
+    /* background: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+form{
+    min-height:fit-content;
+    min-width: 350px;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: transparent;
+    padding: 10px;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(10px) saturate(1.5);
+    border: 1px solid rgb(255, 255, 255);
+    
+    
+}
+.parent1{
+    height: 10%;
+    margin-bottom: 20px;
+    
+}
+.parent2{
+    height: 90%;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.amount{
+    height: 25%;
+    width: 100%;
+    /* background-color: orange; */
+    
+}
+.amount p{
+    margin-bottom: 7px;
+    font-size: large;
+    /* background-color: orange; */
+    
+}
+.amount input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: white;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 250, 250);
+    /* border-radius: 5px; */
+    padding-left: 10px;
+    
+}
+.amount input::placeholder{
+    color: rgb(210, 210, 210);
+}
+.change{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px 20px 0px;
+
+}
+.change i{
+    margin-top: 30px;
+}
+.same p{
+    margin-bottom: 10px;
+}
+.from_in, .to_in{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 7px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.from_in select, .to_in select{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+
+}
+.from_in img, .to_in img{
+    height: 50px;
+}
+.rate{
+
+    width: 100%;
+    height: 30%;
+
+    /* background-color: orange; */
+    padding: 30px 0px 7px 5px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+.parent2 button{
+
+    min-height: 40px;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(113, 12, 221);
+    color: white;
+    /* border: 1px solid rgb(104, 0, 231); */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.parent2 button:hover{
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 0.1s;
+}
+.parent2 button:active{
+    scale: 0.99;
+}
+
+
