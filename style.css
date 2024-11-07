@@ -105,17 +105,17 @@ form{
     border-radius: 5px;
 
 }
-.from_in select, .to_in select{
+.same select, .same select{
     outline: none;
     border: none;
-    background: transparent;
+    background: gray;
     color: white;
 
 }
 .from_in img, .to_in img{
     height: 50px;
 }
-.rate{
+.msg{
 
     width: 100%;
     height: 30%;
@@ -143,8 +143,8 @@ form{
     color: black;
     transition-duration: 0.1s;
 }
-.parent2 button:active{
+/* .parent2 button:active{
     scale: 0.99;
-}
+} */
 
 
